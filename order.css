@@ -1,0 +1,83 @@
+body{
+	position:;
+}
+
+
+
+
+.order-lst{
+	width:15%;
+	height:625px;
+	border:2px solid black;
+	float: left;
+	margin-bottom:10px;
+}
+
+.bill-lst{
+	width:1000px;
+	height:625px;
+	margin-left:10px;
+	border:2px solid black;
+	float:left;
+}
+
+#shop-head{
+	font-size:36px;
+	line-height:70px;
+
+}
+
+#billto{
+	font-weight:700;
+	font-size:18px;
+}
+
+.dater{
+	font-weight:700;
+	font-size:18px;
+}
+
+table,th,td{
+	border-collapse: collapse;
+	border:2px solid black;
+}
+
+.range{
+	height:150px;
+	vertical-align: top;
+	font-size:19px;
+}
+
+td{
+	font-size:18px;
+	padding:7px 14px;
+}
+
+#order-lst-name{
+	font-size:26px;
+	font-weight: 700;
+	margin-left:20px;
+}
+
+input{
+	width:40px;
+}
+
+select{
+	width:80px;
+}
+
+.groupi{
+	line-height: 30px;
+}
+
+
+button{
+	margin-left:20px;
+	margin-top:10px;
+	font-size:15px;
+}
+
+#Wordamt{
+	font-weight:700;
+}

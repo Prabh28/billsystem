@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="order.css">
+	<title>order</title>
+</head>
+<body>
+<div class="order-lst">
+	<font id="order-lst-name">Information</font><Br>
+	&nbsp;&nbsp;&nbsp;<span class="groupi">Name:</span><input type="text" id="nametobill" oninput="mufunction()"><br>
+	&nbsp;&nbsp;&nbsp;<span class="groupi">Order-qty</span><input type="text" id="or-qty" oninput="mufunction()"><br>
+	&nbsp;&nbsp;&nbsp;<span class="groupi">Payment</span><input type="text" id="given-apy"><br>
+	&nbsp;&nbsp;&nbsp;<span class="groupi">Address:</span><select id="address-liv" oninput="mufunction()"><option>Alberta</option><option>British Columbia</option><option>New Brunswick</option><option>Newfoundland</option><option>Nova Scotia</option><option>Ontario</option><option>Prince Edward</option><option>Quebec</option><option>Sasketchwen</option></select>
+	<font style="font-size:12px">*Disclaimer:Shipping charges to per widget are ca$1.5</font><br>
+
+	<font style="font-size: 14px" id="ontariocust"></font>
+
+	<button onclick="window.print()">Print</button>	
+
+
+</div>
+
+<div class="bill-lst">
+	
+<div id="bill">
+	<table border="1">
+		<tr>
+			<th colspan="6" style="width:999px;"><font id="shop-head">Ontario Widget Services</font></th>
+		</tr>
+		<tr>
+			<td colspan="4" style="vertical-align: top;">
+				<span id="billto">Bill to:</span>
+				<span id="billtoname"></span>
+			</td>
+			<td colspan="2" style="width:200px;">
+				<span class="dater">Date:</span>
+				<span id="adte"></span>
+				<br>
+			<span class="dater">Payment method:</span><span id="apyment"></span></td>
+		</tr>
+		<tr><td colspan="6"><span id="billto">Notes:</span></td></tr>
+		<tr>
+			<td style="width:30px;">Sr. No.</td>
+			<td>Product name and Description</td>
+			<td>Qty</td>
+			<td>MRP</td>
+			<td>GST</td>
+			<td>Ttl pmt.</td>
+		</tr>
+		<tr>
+			<td class="range">
+				1<br>2
+			</td>
+			<td class="range">
+				Widget<br>Handling	
+			</td>
+			<td class="range">
+				<span id="result-1"></span>
+				<br>
+				<span id="result-2"></span>
+			</td>
+			<td class="range">
+				<span id="mrp-result-1"></span>
+				<br>
+				<span id="mrp-result-2"></span>
+			</td>
+			<td class="range">
+				<span id="result-1-gst"></span>
+				<br>
+				<span id="result-2-gst"></span>
+			</td>
+			<td class="range">
+				<span id="fresult-1"></span>
+				<br>
+				<span id="fresult-2"></span>
+			</td>
+		</tr>
+		<tr>
+			<td></td>
+			<td style="text-align:right;">Total</td>
+			<td><span id="tt-qty"></span></td>
+			<td></td>
+			<td></td>
+			<td><span id="super-total"></span></td>
+		</tr>
+
+		<tr><td colspan="6">Amount in words:<span id="Wordamt"></span></td></tr>
+
+		<tr><td colspan="3">Terms and conditions:<br><ol><li>Fixed rate ! No refund !</li>
+			<li>No Exchange ! Non-Gauranteed!</li>
+			<li>Goods once sold will not taken back</li></ol></td>
+		<td colspan="3" style="text-align:right">From :<br><img src=""><br>Authorized Signatory
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="order.js"></script>
+</body>
+</html>
